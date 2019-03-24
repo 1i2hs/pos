@@ -1,0 +1,7 @@
+.MenuList .ant-table-selection-column {
+  display: none;
+}
+
+.MenuList .ant-table-tbody > tr.ant-table-row-selected td {
+  background: #E6F7FF;
+}

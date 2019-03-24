@@ -1,0 +1,41 @@
+ant-upload-select-picture-card i {
+  font-size: 32px;
+  color: #999;
+}
+
+.ant-upload-select-picture-card .ant-upload-text {
+  margin-top: 8px;
+  color: #666;
+}
+
+.MenuDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.MenuDetail .ant-row.ant-form-item:last-child {
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 991px) {
+  form.MenuDetail {
+    margin: 16px 0 0 0;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  form.MenuDetail {
+    margin: 0 0 0 16px;
+  }
+}
+
+div.MenuDetail-control-pane {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.MenuDetail-control-pane .MenuDetail-button-delete {
+  margin-right: 8px;
+}

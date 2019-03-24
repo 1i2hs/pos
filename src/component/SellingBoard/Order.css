@@ -1,0 +1,35 @@
+@media only screen and (min-width: 992px) {
+  .Order {
+    height: calc(100vh - 32px);
+  }
+}
+
+.Order {
+  display: flex;
+  flex-direction: column;
+}
+
+.Order-control-button-row {
+  margin: 8px;
+}
+
+.Order-control-button-row button {
+  width: 100%;
+}
+
+.Order-total-price-row {
+  margin: 16px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.Order-input-point {
+  margin-top: 16px;
+}
+
+.Order-input-point-title {
+  margin-bottom: 8px;
+}

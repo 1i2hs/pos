@@ -1,0 +1,31 @@
+.SignIn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.SignIn .SignIn-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  margin-bottom: 16px;
+  font-weight: 300;
+}
+
+.SignIn .SignIn-login-form {
+  margin: 0 auto;
+  max-width: 320px;
+  width: 100%;
+}
+
+.SignIn .SignIn-login-form-button {
+  width: 100%;
+}
+
+.SignIn .SignIn-version {
+  display: flex;
+  justify-content: center;
+}

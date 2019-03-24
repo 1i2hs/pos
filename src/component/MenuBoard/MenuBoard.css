@@ -1,0 +1,8 @@
+.MenuBoard {
+  max-height: calc(100vh - 32px);
+  overflow: scroll;
+}
+
+.MenuBoard-control-pane {
+  margin-bottom: 16px;
+}
